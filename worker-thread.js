@@ -18,4 +18,6 @@ app.get('/fast', (req, res) => {
   res.send('This was fast!');
 });
 
-app.listen(3000);
+app.listen(8080, () => {
+  console.log('Server listening to Port [8080]');
+});
